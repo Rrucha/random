@@ -11,7 +11,7 @@
   }
 
 #hero {
-    background-image: url( "IMG_1131.jpg");
+    background-image: url( "other/IMG_1131.jpg");
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -75,9 +75,9 @@
   #hero .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: white;
+    color: red;
     background-color: transparent;
-    border: 2px solid red;
+    border: 2px solid black;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -87,7 +87,7 @@
   }
   
   #hero .cta:hover {
-    color: white;
+    color: black;
 
     background-color: var(--red);}
 
