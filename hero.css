@@ -11,7 +11,7 @@
   }
 
 #hero {
-    background-image: url( "other/IMG_1131.jpg");
+   
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -37,7 +37,7 @@
   #hero h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     color: transparent;
     animation: text_reveal 0.5s ease forwards;
@@ -83,13 +83,15 @@
     letter-spacing: 0.1rem;
     margin-top: 30px;
     transition: 0.3s ease;
-    transition-property: background-color, color;
+    transition-property: background-color;
+     color;black
   }
   
   #hero .cta:hover {
     color: black;
 
-    background-color: var(--red);}
+
+    background-color: black);}
 
 
     #services {
@@ -150,7 +152,7 @@
     }
     @keyframes text_reveal {
       100% {
-        color: azure;
+        color: lawngreen;
       }
     }
     @keyframes text_reveal_name {
@@ -161,4 +163,25 @@
     }
     
     /* end keyframes */
+
+    li.menuItem a{
+        display:block;
+        width:200px;
+        line-height:50px;
+        padding-left: 10px;
+        color: lawngreen;
+        font-weight:bold;
+        text-decoration:none;
+        
+      }
+      li a:hover {
+        background-color: rgb(240, 11, 11);
+        color:white;
+      }
+      body { 
+        margin-top: 7rem;  
+        background-color: black;
+        color: tomato
+        
+      }
     
