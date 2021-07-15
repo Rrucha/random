@@ -11,7 +11,7 @@
   }
 
 #hero {
-   
+    background-image: url( "other/IMG_1131.jpg");
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -37,7 +37,7 @@
   #hero h1 {
     display: block;
     width: fit-content;
-    font-size: 2rem;
+    font-size: 3rem;
     position: relative;
     color: transparent;
     animation: text_reveal 0.5s ease forwards;
@@ -74,9 +74,9 @@
   }
   #hero .cta {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 20px;
     color: red;
-    background-color: transparent;
+    background-color: black;
     border: 2px solid black;
     font-size: 2rem;
     text-transform: uppercase;
@@ -84,7 +84,7 @@
     margin-top: 30px;
     transition: 0.3s ease;
     transition-property: background-color;
-     color;black
+    
   }
   
   #hero .cta:hover {
@@ -182,6 +182,17 @@
         margin-top: 7rem;  
         background-color: black;
         color: tomato
+        
+      }
+
+      #box1 {
+        border-radius: 25px;
+        border: 0.5rem solid rgb(8, 21, 206)  ;
+        padding: 1rem; 
+        width: 30rem;
+        height: 30remx; 
+        align: center;
+        text-decoration: none;
         
       }
     
